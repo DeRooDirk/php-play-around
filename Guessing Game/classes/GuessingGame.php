@@ -49,12 +49,14 @@ class GuessingGame
 
     public function playerWins()
     {
-        // TODO: show a winner message (mention how many tries were needed)
+		// TODO: show a winner message (mention how many tries were needed)
+		echo "you win";
     }
 
     public function playerLoses()
     {
-        // TODO: show a lost message (mention the secret number)
+		// TODO: show a lost message (mention the secret number)
+		echo "you lose";
     }
 
     public function reset()
