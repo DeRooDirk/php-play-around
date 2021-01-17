@@ -31,7 +31,8 @@ class GuessingGame
 			$this->guess();
 		}
         // --> if so, check if the player won (run the related function) or not (give a hint if the number was higher/lower or run playerLoses if all guesses are used).
-        // TODO as an extra: if a reset button was clicked, use the reset function to set up a new game
+		// TODO as an extra: if a reset button was clicked, use the reset function to set up a new game
+		
 	}
 
 	public function generateSecretnumber(){

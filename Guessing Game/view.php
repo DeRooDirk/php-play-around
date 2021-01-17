@@ -8,5 +8,12 @@
 	<title>Casino royale - guessing game</title>
 </head>
 <body>
+<form method="post" >
+    <label for="maxGuesses">How many times you would like to try?:</label><br>
+    <input type="text" id="max guesses" name="maxGuesses" value=" "><br>
+    <label for="guessNumber">enter a number </label><br>
+    <input type="guessNumber" id="guessNumber" name="guessNumber" value=""><br><br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
