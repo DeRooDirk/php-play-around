@@ -1,17 +1,16 @@
 <?php
 
-// Require the correct variable type to be used (no auto-converting)
+
 declare(strict_types=1);
 
-// Session needed to be turned on to record the secretNumber and attempts
 session_start();
 
-// Show errors so we get helpful information
+// Show errors
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-// Load you classes
+// Load classes
 require_once 'classes/GuessingGame.php';
 /*
 function whatIsHappening()
