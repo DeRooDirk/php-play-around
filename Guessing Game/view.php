@@ -12,7 +12,7 @@
 	<h1>You get 3 guesses to guess the number. Try with a number between 1 and 10.</h1>
 	<input type="text" name="input" value="" size="50"></input>
 	<button type="submit" name="guess">Guess!</button>
-	<button type="submit" name="reset">Restart the game</button>
+	<button type="submit" name="reset">Restart !!</button>
 </form>
 <p name="result">
 	<h2>Your Choice: <?php if (isset($_POST["input"])) {
