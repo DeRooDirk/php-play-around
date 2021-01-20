@@ -80,7 +80,7 @@ class GuessingGame
 
     public function guessLower()
     {
-        $this->result = "Wrong again... Guess lower! This was to high ";
+        $this->result = "Wrong again... Guess lower! Are you high ??";
     }
 
     public function reset()
